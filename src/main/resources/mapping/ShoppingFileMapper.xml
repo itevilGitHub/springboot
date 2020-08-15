@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sinosoft.dao.ShoppingFileMapper">
+	<insert id="saveFile" parameterType="ShoppingFile">
+		insert into shopping_fileSave(id,address,name,type) values(#{id},#{address},#{name},#{type})
+	</insert>
+	
+	<select id="lookForPicture" parameterType="String" resultType="ShoppingFile">
+		select * from shopping_fileSave where name like "%"#{name}"%"
+	</select>
+	
+</mapper>

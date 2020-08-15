@@ -1,0 +1,101 @@
+#continer{
+	width:1340px;height:auto;border: 0 solid #c0c0c0;border-radius: 5px;margin-left:15px;
+}
+.imgCirle {
+ 	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+ }
+ /*顶部图片*/
+#topPicture{
+	width:1335px;height:100px;border-radius: 5px;border: 1px solid #c0c0c0;
+}
+/*头部左侧动图、搜索框*/
+#header{
+	width:1340px;height:100px;border-radius: 5px;
+}
+#header_left{
+	width:200px;height:100px;border: 1px solid #c0c0c0;float:left;border-radius: 5px;
+}
+#header_middle{
+	width:930px;height:100px;border: 0px solid #c0c0c0;float:left;border-radius: 5px;
+}
+#header_right{
+	width:204px;height:100px;border: 0px solid #c0c0c0;float:left;border-radius: 0px;
+}
+/*导航栏*/
+#navigating{
+	width:1340px;height:53px;border: 1px solid #c0c0c0;border-radius: 5px;margin-top:5px;
+}
+#navigating-left{
+	width:200px;height:53px;border-right:1px solid #c0c0c0;border-radius: 5px;float:left;
+}
+#navigating-right{
+	width:1137px;height:53px;border-radius: 5px;float:left;
+}
+.navbar{margin-bottom:0px}
+/*中间菜单、轮播、动图、登录注册小窗*/
+#breast{
+	width:1340px;height:300px;border: 1px solid #c0c0c0;border-radius: 5px;margin-top:5px;
+}
+#breast-menu{
+	width:200px;height:300px;border-right:1px solid #c0c0c0;border-radius: 5px;float:left;
+}
+#breast-lunbo{
+	width:600px;height:300px;border:1px solid #c0c0c0;border-radius: 5px;float:left;
+}
+#breast-smallGif{
+	width:327px;height:300px;border:1px solid #c0c0c0;border-radius: 5px;float:left;
+}
+#breast-smallGif-top{
+	width:327px;height:149px;border:1px solid #c0c0c0;border-radius: 5px;
+}
+#breast-smallGif-bottom{
+	width:327px;height:149px;border:1px solid #c0c0c0;border-radius: 5px;
+}
+#breast-login{
+	width:210px;height:300px;border:1px solid #c0c0c0;border-radius: 5px;float:left;
+}
+
+/*左侧菜单的样式 */
+ ul.nav-tabs{
+     width: 199px;
+     height:297px;
+     margin-top: 0px;
+     margin-left:-14px;
+     border-radius: 4px;
+     border: 1px solid #ddd;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+ }
+ ul.nav-tabs li{
+     margin: 0;
+     border-top: 1px solid #ddd;
+ }
+ ul.nav-tabs li:first-child{
+     border-top: none;
+ }
+ ul.nav-tabs li a{
+     margin: 0;
+     padding: 8px 16px;
+     border-radius: 0;
+ }
+ ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+     color: #fff;
+     background: #333;
+     border: 1px solid #0088cc;
+ }
+ ul.nav-tabs li:first-child a{
+     border-radius: 4px 4px 0 0;
+ }
+ ul.nav-tabs li:last-child a{
+     border-radius: 0 0 4px 4px;
+ }
+ ul.nav-tabs.affix{
+     top: 30px; /* Set the top position of pinned element */
+ }
+ /*搜索框的样式修改*/
+ .col-lg-6 {width: 80%;}
+/*登录form的样式修改*/
+.form-horizontal{
+	margin-top:37px;
+	margin-left:10px;
+}
+.checkbox {margin-left: -36px;}
