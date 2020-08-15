@@ -17,7 +17,7 @@ public class FileManageController {
 	@Autowired
 	private ShoppingFileService service;
 
-
+	//查询地图
 	@RequestMapping("/lookForPicture")
 	public List<ShoppingFile> lookForPicture(HttpServletRequest request){
 		String name = request.getParameter("name");
