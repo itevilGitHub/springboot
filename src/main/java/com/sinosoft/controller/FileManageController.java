@@ -16,7 +16,12 @@ public class FileManageController {
 	
 	@Autowired
 	private ShoppingFileService service;
-	
+
+	/**
+	 *
+	 * @param request
+	 * @return
+	 */
 	@RequestMapping("/lookForPicture")
 	public List<ShoppingFile> lookForPicture(HttpServletRequest request){
 		String name = request.getParameter("name");
